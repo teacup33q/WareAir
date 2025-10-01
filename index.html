@@ -1,1 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Business — Professional Services</title>
+  <meta name="description" content="Short 1-line description of your service and primary city or industry."/>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;color:#111}
+    header{background:#0b74de;color:#fff;padding:20px}
+    .wrap{max-width:900px;margin:0 auto;padding:20px}
+    h1{margin:0 0 6px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{border:1px solid #eee;padding:16px;border-radius:10px}
+    footer{font-size:.9rem;color:#555;padding:20px;text-align:center}
+    a.button{display:inline-block;background:#111;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <strong>Your Business</strong> — <span>Professional Services</span>
+      <div style="float:right"><a href="tel:PHONE" style="color:#fff;text-decoration:none">PHONE</a></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h1>We help [target customer] do X better</h1>
+      <p>One sentence that explains the main benefit. Short, client-focused.</p>
+      <p><a class="button" href="#contact">Get a free consult</a></p>
+    </section>
+
+    <section>
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card"><h3>Service A</h3><p>What it includes & why it helps.</p></div>
+        <div class="card"><h3>Service B</h3><p>What it includes & why it helps.</p></div>
+        <div class="card"><h3>Service C</h3><p>What it includes & why it helps.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p>Short credentials: years in business, certifications, guarantee, short personal intro.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@yourdomain.com">you@yourdomain.com</a> — Phone: <a href="tel:PHONE">PHONE</a></p>
+
+      <!-- Example: embed a Google Form (replace FORM_ID with your form's ID) -->
+      <iframe src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Your Business · <a href="/privacy.html">Privacy & Terms</a>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
 
