@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" style="background:#1a1f2e">
+  <rect width="800" height="450" fill="#131825"/>
+  <g transform="translate(400,225)" fill="#c8d8f0" opacity="0.92">
+    <!-- Fuselage - narrow regional -->
+    <ellipse cx="5" cy="0" rx="200" ry="18" fill="#b0c4de"/>
+    <path d="M205,0 Q232,-7 245,0 Q232,7 205,0" fill="#c8d8f0"/>
+    <path d="M-195,0 Q-212,-3 -225,0 Q-212,3 -195,0" fill="#c8d8f0"/>
+    <!-- Wings -->
+    <path d="M30,0 L-25,-82 L-48,-85 L-45,-70 L-10,0 L-45,70 L-48,85 L-25,82 Z" fill="#a0b8d8"/>
+    <!-- H-stab -->
+    <path d="M-165,0 L-195,-32 L-206,-32 L-203,-25 L-178,0 L-203,25 L-206,32 L-195,32 Z" fill="#90a8c8"/>
+    <!-- V-tail -->
+    <path d="M-178,-2 L-212,-48 L-220,-48 L-216,-38 L-178,0" fill="#90a8c8"/>
+    <!-- Rear-mounted engines (CRJ characteristic) -->
+    <ellipse cx="-148" cy="-20" rx="20" ry="6" fill="#7090b0"/>
+    <ellipse cx="-148" cy="20" rx="20" ry="6" fill="#7090b0"/>
+    <!-- Windows -->
+    <rect x="-100" y="-6" width="265" height="4" rx="2" fill="#4a6080" opacity="0.6"/>
+  </g>
+  <text x="400" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#7090b8" letter-spacing="3">CANADAIR CRJ 200</text>
+</svg>
