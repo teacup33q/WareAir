@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" style="background:#1a1f2e">
+  <rect width="800" height="450" fill="#131825"/>
+  <g transform="translate(400,225)" fill="#c8d8f0" opacity="0.92">
+    <!-- Fuselage - turboprop, shorter/stubbier -->
+    <ellipse cx="0" cy="0" rx="145" ry="19" fill="#b0c4de"/>
+    <path d="M145,0 Q168,-7 180,0 Q168,7 145,0" fill="#c8d8f0"/>
+    <path d="M-145,0 Q-160,-3 -170,0 Q-160,3 -145,0" fill="#c8d8f0"/>
+    <!-- High wings (King Air characteristic) -->
+    <path d="M5,-2 L-15,-88 L-38,-90 L-36,-75 L-12,-2 L-36,75 L-38,90 L-15,88 Z" fill="#a0b8d8"/>
+    <!-- Turboprop engines with props -->
+    <ellipse cx="-18" cy="-90" rx="14" ry="4" fill="#6080a0"/>
+    <line x1="-18" y1="-105" x2="-18" y2="-75" stroke="#7090b0" stroke-width="2.5"/>
+    <line x1="-33" y1="-90" x2="-3" y2="-90" stroke="#7090b0" stroke-width="2.5"/>
+    <ellipse cx="-18" cy="90" rx="14" ry="4" fill="#6080a0"/>
+    <line x1="-18" y1="105" x2="-18" y2="75" stroke="#7090b0" stroke-width="2.5"/>
+    <line x1="-33" y1="90" x2="-3" y2="90" stroke="#7090b0" stroke-width="2.5"/>
+    <!-- T-tail -->
+    <path d="M-125,-2 L-138,-44 L-144,-44 L-142,-36 L-125,0" fill="#90a8c8"/>
+    <path d="M-142,-42 L-162,-54 L-170,-54 L-168,-48 L-148,-42 L-168,2 L-170,6 L-162,4 L-142,-2" fill="#90a8c8" transform="translate(0,-2)"/>
+    <!-- Windows -->
+    <rect x="-35" y="-7" width="148" height="4" rx="2" fill="#4a6080" opacity="0.6"/>
+  </g>
+  <text x="400" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#7090b8" letter-spacing="3">BEECHCRAFT KING AIR B200GT</text>
+</svg>
