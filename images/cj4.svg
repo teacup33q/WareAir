@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" style="background:#1a1f2e">
+  <rect width="800" height="450" fill="#131825"/>
+  <g transform="translate(400,225)" fill="#c8d8f0" opacity="0.92">
+    <!-- Fuselage - smaller jet -->
+    <ellipse cx="0" cy="0" rx="155" ry="16" fill="#b0c4de"/>
+    <path d="M155,0 Q178,-6 190,0 Q178,6 155,0" fill="#c8d8f0"/>
+    <path d="M-155,0 Q-170,-3 -180,0 Q-170,3 -155,0" fill="#c8d8f0"/>
+    <!-- High-mounted straight wings (CJ4 characteristic) -->
+    <path d="M10,-2 L-20,-80 L-42,-82 L-40,-68 L-18,-2 L-40,68 L-42,82 L-20,80 Z" fill="#a0b8d8"/>
+    <!-- T-tail (CJ4 characteristic) -->
+    <path d="M-135,-2 L-148,-48 L-155,-48 L-153,-40 L-135,0" fill="#90a8c8"/>
+    <!-- Horizontal stab at top of T-tail -->
+    <path d="M-152,-46 L-175,-60 L-183,-60 L-181,-54 L-160,-46 L-181,2 L-183,8 L-175,6 L-152,-2" fill="#90a8c8" transform="translate(0,-2)"/>
+    <!-- Twin engines on rear fuselage -->
+    <ellipse cx="-115" cy="-16" rx="16" ry="5" fill="#7090b0"/>
+    <ellipse cx="-115" cy="16" rx="16" ry="5" fill="#7090b0"/>
+    <!-- Windows -->
+    <rect x="-30" y="-6" width="155" height="4" rx="2" fill="#4a6080" opacity="0.6"/>
+  </g>
+  <text x="400" y="395" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#7090b8" letter-spacing="3">CESSNA CITATION CJ4</text>
+</svg>
